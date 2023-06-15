@@ -1,0 +1,72 @@
+body {
+  font-family: "Lato", Calibri, Arial, sans-serif;
+  color: #89867e;
+  background: #f9f9f9;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.main,
+.container > header {
+  /*width: 80%;
+	margin: 0 auto;
+	padding: 2em;*/
+  /*align-content: center;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;*/
+  width: 100%;
+  max-width: 100%;
+  min-height: 170px;
+
+  /*Agregarle Margen Y,X*/
+  margin: auto 35%;
+  /*box-shadow: 0 0 10px rgba(0,0,0,.1);*/
+}
+
+@media (max-width: 61em) {
+  .main,
+  .container > header {
+    min-height: 200px;
+  }
+}
+
+@media (max-width: 55em) {
+  .main,
+  .container > header {
+    min-height: 220px;
+  }
+}
+
+@media (max-width: 49em) {
+  .main,
+  .container > header {
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 32.4em) {
+  .main,
+  .container > header {
+    min-height: 170px;
+  }
+}
+
+@media (max-width: 29em) {
+  .main,
+  .container > header {
+    min-height: 170px;
+  }
+}
+
+/*.main {
+	max-width: 100%;
+	min-height: 10em;
+}*/

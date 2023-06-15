@@ -1,0 +1,88 @@
+body {
+  box-sizing: border-box;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#window-notice {
+  background: rgba(33, 41, 52, 0.85);
+  bottom: 0;
+  display: flex;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  transition: background 0.6s;
+}
+
+.window-notice .content {
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(33, 41, 52, 0.75);
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 600px;
+  min-width: 320px !important;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.3rem;
+}
+
+.content-buttons {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.content-buttons a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+  background-color: #0080de;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.content-buttons a:hover {
+  background-color: #006ab8;
+}
+
+.content-text a {
+  color: #0080de;
+  text-decoration: none;
+}
+
+.content-text a:hover {
+  color: #006ab8;
+  text-decoration: underline;
+  text-align: justify;
+}
+
+.content-buttons input {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+  background-color: #0080de;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.content-buttons input:hover {
+  background-color: #006ab8;
+}
+
+.content-text input {
+  color: #0080de;
+  text-decoration: none;
+}
+
+.content-text input:hover {
+  color: #006ab8;
+  text-decoration: underline;
+  text-align: justify;
+}

@@ -1,0 +1,146 @@
+.menu {
+  /*	alignment-baseline: center;*/
+  border-collapse: collapse;
+}
+
+.menu a {
+  background: #ffcd48;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+
+  /*	float: left;*/
+  padding: 15px 0 0 20px;
+}
+
+.menu a:hover {
+  background: #1d2f3d;
+  color: #fff;
+  text-decoration: none;
+}
+
+#usm td {
+  background: #229954;
+  text-align: center;
+  border: solid 1px #000;
+  border-collapse: collapse;
+}
+
+/***************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Lato", sans-serif;
+  line-height: 1;
+}
+
+body {
+  background-color: #f5f6f8;
+  overflow: hidden;
+}
+
+.sidebar-navigation {
+  display: inline-block;
+  min-height: 100vh;
+  /*width: 80px;*/
+  width: 7%;
+  background-color: #5dade2;
+  /*height: 100%;*/
+
+  float: left;
+  box-sizing: border-box;
+}
+.sidebar-navigation ul {
+  text-align: center;
+  color: white;
+}
+.sidebar-navigation ul li {
+  padding: 13% 0%;
+  cursor: pointer;
+  transition: all ease-out 120ms;
+}
+.sidebar-navigation ul li a {
+  display: block;
+  font-size: 24%;
+  transition: all ease 450ms;
+  box-sizing: border-box;
+}
+.sidebar-navigation ul li .tooltip {
+  display: inline-block;
+  position: absolute;
+  background-color: #313443;
+  padding: 8px 15px;
+  border-radius: 3px;
+  margin-top: -26px;
+  left: 8%;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+.sidebar-navigation ul li .tooltip:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -4px;
+  top: 10px;
+  transform: rotate(45deg);
+  width: 10px;
+  height: 10px;
+  background-color: inherit;
+}
+.sidebar-navigation ul li:hover {
+  background-color: #22252e;
+}
+.sidebar-navigation ul li:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+.sidebar-navigation ul li.active {
+  background-color: #22252e;
+}
+.sidebar-navigation ul li.active a {
+  color: #98d7ec;
+}
+
+.home:before {
+  content: url(../img/home.png);
+  /*content: "\e000";*/
+}
+.receta:before {
+  content: url(../img/receta.png);
+}
+.agenda:before {
+  content: url(../img/agenda.png);
+}
+.cliente:before {
+  content: url(../img/cliente.png);
+}
+.servicio:before {
+  content: url(../img/servicio.png);
+}
+.medico:before {
+  content: url(../img/medicos.png);
+}
+.empleado:before {
+  content: url(../img/buscar.png);
+}
+.usuario:before {
+  content: url(../img/usuario.png);
+}
+.factura:before {
+  content: url(../img/factura.png);
+}
+.info:before {
+  content: url(../img/information.png);
+}
+.exit:before {
+  content: url(../img/exit.png);
+}
+
+@media screen and (max-width: 320px) {
+  /* Aquí correspondería el código CSS para pantallas de 320px */
+}

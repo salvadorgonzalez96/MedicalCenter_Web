@@ -1,0 +1,3 @@
+Options All -Indexes
+ErrorDocument 404 /PW2/Proyecto/404.php
+ErrorDocument 403 /PW2/Proyecto/403.php

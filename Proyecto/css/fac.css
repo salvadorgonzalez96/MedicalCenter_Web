@@ -1,0 +1,54 @@
+/*body {
+  background-color: transparent;
+  color: #070707;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+}*/
+
+.btn-success,
+.panel-success {
+  background-color: #27c24c !important;
+  border-color: #27c24c !important;
+  color: #fff !important;
+}
+.btn-primary,
+.panel-primary {
+  border-color: #7266ba;
+  color: #fff !important;
+}
+.btn-info,
+.panel-info {
+  background-color: #23b7e5;
+  border-color: #23b7e5;
+  color: #fff !important;
+}
+.btn-warning,
+.panel-warning {
+  background-color: #fad733;
+  border-color: #fad733;
+  color: #fff !important;
+}
+.btn-danger,
+.panel-danger {
+  background-color: #f05050;
+  border-color: #f05050;
+  color: #fff !important;
+}
+.btn-dark,
+.panel-dark {
+  background-color: #3a3f51;
+  border-color: #3a3f51;
+  color: #fff !important;
+}
+
+.form-inline .form-group {
+  margin-bottom: 20px;
+  float: right;
+}
+
+.invoice-save-btm {
+  height: 60px;
+  padding: 20px;
+  font-size: 20px;
+}
